@@ -234,7 +234,6 @@ public class YaffVirtual implements YaffDataContainer
         {
             if(getPointer() >= bytes.size())
             {
-                //System.out.println("Writing byte: " + byteValue);
                 bytes.add(byteValue);
             }
             else bytes.set(getPointer(), byteValue);
